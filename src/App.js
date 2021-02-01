@@ -2,6 +2,7 @@ import './App.css';
 import Logo from './components/Logo';
 import Nav from './components/Nav';
 import AccountNav from './components/AccountNav';
+import PictureCarousel from './components/PictureCarousel';
 
 function App() {
     return (
@@ -9,7 +10,7 @@ function App() {
             <AccountNav />
             <Logo />
             <Nav />
-            <h1>Hello</h1>
+            <PictureCarousel />
         </div>
     );
 }

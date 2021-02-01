@@ -19,3 +19,13 @@
     font-size: 14px;
     text-transform: uppercase;
 }
+
+@media(max-width: 500px) {
+    .cart-button .icon {
+        font-size: 30px;
+    }
+
+    .cart-button p {
+        font-size: 12px;
+    }
+}

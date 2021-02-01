@@ -19,3 +19,13 @@
     font-size: 14px;
     text-transform: uppercase;
 }
+
+@media(max-width: 500px) {
+    .account-button .icon {
+        font-size: 30px;
+    }
+
+    .account-button p {
+        font-size: 12px;
+    }
+}

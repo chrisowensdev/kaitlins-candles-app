@@ -7,9 +7,17 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    overflow-x: auto;
 }
 
 .picture-container img {
     height: 200px;
     border: 10px solid grey;
+    margin: 0 5px;
+}
+
+@media (max-width: 800px) {
+    .picture-carousel {
+        justify-content: flex-start;
+    }
 }

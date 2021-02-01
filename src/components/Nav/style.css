@@ -2,10 +2,9 @@
 
 nav {
     background-image: url('navbarbg.png');
-    height: 130px;
 }
 
-ul {
+nav ul {
     margin: 0;
     display: flex;
     list-style-type: none;
@@ -16,6 +15,10 @@ ul {
     background-color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
     border-bottom: 1px solid #000;
+}
+
+nav ul li {
+    padding: 10px;
 }
 
 .banner {
@@ -47,6 +50,7 @@ ul {
 
 .banner .center span{
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .banner .right {
@@ -55,4 +59,22 @@ ul {
     text-transform: uppercase;
 }
 
+@media (max-width: 800px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .banner .left {
+        font-size: 30px;
+    }
+
+    .banner .center {
+        font-size: 16px;
+    }
+
+    .banner .right {
+        font-size: 30px;
+    }
+}
 

@@ -1,0 +1,13 @@
+.account-nav {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 20px;
+}
+
+
+
+

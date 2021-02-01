@@ -1,0 +1,21 @@
+
+.account-button {
+    border: none;
+    background-color: transparent;
+    color: #f77c7f;
+    text-align: center;
+}
+
+.account-button:focus {
+    outline: none;
+}
+
+.account-button .icon {
+    font-size: 40px;
+}
+
+.account-button p {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}

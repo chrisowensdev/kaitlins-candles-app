@@ -1,0 +1,21 @@
+
+.cart-button {
+    border: none;
+    background-color: transparent;
+    color: #f77c7f;
+    text-align: center;
+}
+
+.cart-button:focus {
+    outline: none;
+}
+
+.cart-button .icon {
+    font-size: 40px;
+}
+
+.cart-button p {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}

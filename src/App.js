@@ -3,6 +3,7 @@ import Logo from './components/Logo';
 import Nav from './components/Nav';
 import AccountNav from './components/AccountNav';
 import PictureCarousel from './components/PictureCarousel';
+import ExpandingCards from './components/ExpandingCards';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Logo />
             <Nav />
             <PictureCarousel />
+            <ExpandingCards />
         </div>
     );
 }

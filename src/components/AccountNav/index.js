@@ -7,8 +7,8 @@ import './style.css';
 const AccountNav = () => {
     return (
         <div className='account-nav'>
-            <CartButton />
             <AccountButton />
+            <CartButton />
         </div>
     );
 };

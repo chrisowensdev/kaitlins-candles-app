@@ -1,12 +1,12 @@
 import React from 'react';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import LocalMallOutlinedIcon from '@material-ui/icons/LocalMallOutlined';
 
 import './style.css';
 
 const CartButton = () => {
     return (
         <button className='cart-button'>
-            <ShoppingCartIcon className='icon' />
+            <LocalMallOutlinedIcon className='icon' />
             <p>Cart</p>
         </button>
     );

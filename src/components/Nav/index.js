@@ -14,12 +14,12 @@ const Nav = () => {
                 <li>Contact</li>
             </ul>
             <section className='banner'>
-                <p class='left'>10 - 15% OFF</p>
-                <p class='center'>
+                <p className='left'>10 - 15% OFF</p>
+                <p className='center'>
                     <span>Select Items</span> <br />
                     Limited Quantities
                 </p>
-                <p class='right'>Shop Sale</p>
+                <p className='right'>Shop Sale</p>
             </section>
         </nav>
     );

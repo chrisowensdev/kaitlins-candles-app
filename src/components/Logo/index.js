@@ -4,8 +4,9 @@ import './style.css';
 
 const Logo = () => {
     return (
-        <div class='logo'>
+        <div className='logo'>
             <img src='/logo.png' alt='Logo' />
+            <img src='/backgroundflame.png' alt='flame' className='flame' />
         </div>
     );
 };

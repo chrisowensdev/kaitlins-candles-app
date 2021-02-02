@@ -1,0 +1,21 @@
+.new-item {
+    width: 45%;
+    height: 400px;
+    margin: 20px;
+    background-image: url('royaltea.jpeg');
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 800px) {
+    .new-item {
+        height: 250px;
+    }
+}
+
+@media (max-width: 500px) {
+    .new-item {
+        width: 95%;
+        height: 200px;
+    }
+}

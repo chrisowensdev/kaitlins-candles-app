@@ -20,4 +20,7 @@
     .picture-carousel {
         justify-content: flex-start;
     }
+     .picture-carousel img {
+         height: 150px;
+     }
 }

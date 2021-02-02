@@ -2,6 +2,7 @@
     width: 45%;
     height: 400px;
     border: 1px solid #000;
+    margin: 20px;
     display: flex;
 }
 
@@ -12,7 +13,7 @@
     margin: 3px;
     display: flex;
     justify-content: center;
-    transition: flex 0.7s ease-in-out;
+    transition: all 0.6s ease-in-out;
     align-items: center;
 }
 
@@ -44,10 +45,23 @@
 
 .expanding-cards .card.active .text {
     opacity: 1;
-    transition: opacity 0.3s ease-in 0.3s;
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
 
 .valentine {
     transform: rotate(90deg);
+}
+
+@media(max-width: 800px) {
+    .expanding-cards {
+        height: 250px;
+    }
+}
+
+@media(max-width: 500px) {
+    .expanding-cards {
+        width: 95%;
+        height: 200px;
+    }
 }

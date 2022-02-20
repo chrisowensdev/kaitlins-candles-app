@@ -6,7 +6,7 @@ const Logo = () => {
     return (
         <div className='logo'>
             <img src='/logo.png' alt='Logo' />
-            <img src='/backgroundflame.png' alt='flame' className='flame' />
+            {/* <img src='/backgroundflame.png' alt='flame' className='flame' /> */}
         </div>
     );
 };

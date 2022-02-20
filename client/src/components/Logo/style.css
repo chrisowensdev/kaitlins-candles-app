@@ -1,6 +1,10 @@
 .logo {
     position: relative;
-    padding: 20px;
+    padding: 10px;
+}
+
+.logo img {
+    height: 120px;
 }
 
 .flame {
@@ -12,6 +16,6 @@
 
 @media(max-width: 800px){
     .logo img{
-        height: 200px;
+        height: 100px;
     }
 }

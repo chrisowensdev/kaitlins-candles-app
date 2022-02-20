@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da7afd80.css",
+    "main.js": "/static/js/main.443f2789.js",
+    "static/js/377.45272ca7.chunk.js": "/static/js/377.45272ca7.chunk.js",
+    "static/media/royaltea.jpeg": "/static/media/royaltea.f800761c646741a05e9a.jpeg",
+    "static/media/navbarbg.png": "/static/media/navbarbg.b0db6fcac6baeb6efce1.png",
+    "index.html": "/index.html",
+    "main.da7afd80.css.map": "/static/css/main.da7afd80.css.map",
+    "main.443f2789.js.map": "/static/js/main.443f2789.js.map",
+    "377.45272ca7.chunk.js.map": "/static/js/377.45272ca7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da7afd80.css",
+    "static/js/main.443f2789.js"
+  ]
+}
